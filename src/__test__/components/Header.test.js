@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 import ProviderMock from '../../__mocks__/ProviderMock';
@@ -18,6 +19,6 @@ describe('<Header />', () => {
         <Header />
       </ProviderMock>
     );
-    expect(header.find('.Header-title').text()).toEqual('Platzi Store');
+    expect(header.find('.Header-title').text()).toEqual('Store');
   });
 });
