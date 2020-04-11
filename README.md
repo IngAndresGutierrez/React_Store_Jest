@@ -1,6 +1,6 @@
 # Store
 
-Tienda virtual implementada con React para realizar priebas unitarias
+Tienda virtual implementada con React para realizar pruebas unitarias
 
 ![Captura de la App](./.readme-static/store-react.png)
 ![Captura Test](./.readme-static/test-jest.png)
